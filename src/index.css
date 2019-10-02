@@ -3,7 +3,7 @@
     margin-top: 10px;
     height: 40px;
     margin-bottom: 30px;
-    width: auto;
+    width: 100%;
 }
 
 .cart-right{
@@ -29,6 +29,20 @@
 
 .card-image .card-right{
     display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-right{
+        float: left;
+        margin-top: 20px;
+        height: 600px;
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .card-image .card-right{
+        display: inline-block;
+    }
 }
 
 .item-title{
