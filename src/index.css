@@ -31,20 +31,6 @@
     display: inline;
 }
 
-@media only screen and (max-width: 600px) {
-    .card-right{
-        float: left;
-        margin-top: 20px;
-        height: 600px;
-        width: 100%;
-        margin-left: 100px;
-    }
-
-    .card-image .card-right{
-        display: inline-block;
-    }
-}
-
 .item-title{
     text-align: left;
 }
@@ -135,4 +121,28 @@
     padding-right: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+    .card-image{
+        float: left;
+        height: 600px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .card-right{
+        float: left;
+        margin-top: 20px;
+        height: 600px;
+        width: 100%;
+    }
 
+    .card-image .card-right{
+        display: inline-block;
+    }
+
+    button::-moz-focus-inner {
+        border: 0;
+    }
+    .btn-size::-moz-focus-inner {
+        border: 0;
+    }
+}

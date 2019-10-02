@@ -10,7 +10,7 @@ class Navbar extends Component{
             <nav className="nav-wrapper">
                 <ul className="cart-right">
                     <Dropdown icon={null} style={{color: '#888888'}} text={"My Cart (" + this.props.subTotal + ")"}>
-                        <Dropdown.Menu direction={"left"} className="dropdown-menu">
+                        <Dropdown.Menu className="dropdown-menu">
                             <MiniCart/>
                         </Dropdown.Menu>
                     </Dropdown>
